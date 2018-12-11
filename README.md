@@ -3,7 +3,7 @@ caffe python layer to randomly crop a batch of images with different sizes for c
 
 
 
-#Example in train_val.prototxt
+# Example in train_val.prototxt
 
 layer{
 
