@@ -46,7 +46,7 @@ layer{
   
   bottom: "data"
   
-  top: "crop"
+  top: "new_colored_data"
   
   python_param {
   
