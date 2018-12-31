@@ -9,7 +9,7 @@ caffe python layer to randomly crop a batch of images with different sizes for c
 
 
 # random_colour_modification
-caffe python layer to randomly modify the RGB value of every pixel of a batch of images by adding a certaing offset value, whose maximun absolute value if given by the layer parameter modification_range
+caffe python layer to randomly modify the RGB value of every pixel of a batch of images by adding a certaing offset value, whose maximun absolute value if given by the layer parameter colour_variation_range
 
 
 
@@ -54,7 +54,7 @@ layer{
     
     layer: "RandomColourModification" 
     
-    param_str: '{"modification_range: 50}' 
+    param_str: '{"colour_variation_range: 50}' 
     
   }
   
